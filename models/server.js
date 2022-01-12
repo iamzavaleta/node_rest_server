@@ -8,7 +8,7 @@ class Server {
         this.app = express();
         this.port = process.env.PORT;
         this.usuariosPath = '/api/usuarios';
-        this.authPath = '/auth';
+        this.authPath = '/api/auth';
         //MIDDLEWARES
         this.middlewares();
 
